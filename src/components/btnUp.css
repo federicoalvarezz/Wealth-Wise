@@ -1,0 +1,42 @@
+#arrwUp {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vw;
+  width: 5vw;
+  background: conic-gradient(var(--bs-primary) var(--up), white var(--up));
+  border-radius: 50%;
+  right: 2vw;
+  bottom: 2vw;
+  translate: 10vw;
+  transition: all 0.75s ease;
+}
+
+.btn {
+  display: flex;
+  height: 3.5vw;
+  width: 3.5vw;
+  background: var(--bs-body-bg);
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+
+.arrwbtn:active {
+  background-color: var(--bs-body-bg) !important;
+}
+
+.arrwbtn:hover {
+  background-color: var(--bs-body-bg);
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 1, "wght" 0, "GRAD" 0, "opsz" 24;
+  font-size: 3vw !important;
+  border-radius: 50%;
+}
+
+body {
+  min-height: 400vh;
+}
